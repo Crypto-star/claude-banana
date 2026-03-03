@@ -1,0 +1,10 @@
+{
+  "name": "claude-banana",
+  "version": "1.0.0",
+  "description": "Generate images using Google's Gemini API directly from Claude Code",
+  "author": {
+    "name": "Hardik"
+  },
+  "repository": "https://github.com/crypto-star/claude-banana",
+  "keywords": ["image-generation", "gemini", "google-ai", "imagen"]
+}

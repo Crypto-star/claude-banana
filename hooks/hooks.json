@@ -1,0 +1,17 @@
+{
+  "description": "Session hooks for Gemini Image Generator plugin",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ${CLAUDE_PLUGIN_ROOT}/hooks/check-setup.sh",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

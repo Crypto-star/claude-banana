@@ -1,0 +1,41 @@
+{
+  "name": "claude-banana-plugins",
+  "owner": {
+    "name": "Crypto-star",
+    "email": "crypto-star@users.noreply.github.com"
+  },
+  "metadata": {
+    "description": "Smart image generation plugin for Claude Code using Google's Gemini API with context-aware prompt crafting",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "claude-banana",
+      "source": "./",
+      "description": "Generate images using Google's Gemini API directly from Claude Code. Features smart prompt crafting that analyzes your frontend codebase for design context, asks targeted questions, and generates optimized prompts for high-quality results.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Crypto-star"
+      },
+      "homepage": "https://github.com/Crypto-star/claude-banana#readme",
+      "repository": "https://github.com/Crypto-star/claude-banana",
+      "license": "MIT",
+      "keywords": [
+        "image-generation",
+        "gemini",
+        "google-ai",
+        "imagen",
+        "frontend",
+        "prompt-crafting",
+        "visual-design"
+      ],
+      "category": "productivity",
+      "tags": [
+        "image-generation",
+        "gemini-api",
+        "prompt-engineering",
+        "frontend-design"
+      ]
+    }
+  ]
+}
